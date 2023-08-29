@@ -11,6 +11,12 @@ package com.mycompany.ta10ut3;
 public class Program {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       Empresa empresa = new Empresa("EstrucuturasYAlgoritmos");
+
+
+String[] sucursales = ManejadorArchivosGenerico.leerArchivo("src\\main\\java\\com\\mycompany\\ta10ut3\\sucursales.txt");
+
     }
+    
+
 }
